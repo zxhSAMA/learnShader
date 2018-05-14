@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RippleShader
+  m_Shader: {fileID: 4800000, guid: 0fa1fe78e8989473f97c67c0a3b1b606, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ISALPHA_ON _ISCOLORSHIFT_ON _PIXELSNAP_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AnimationTime: 1.5
+    - _PixelSnap: 1
+    - _StartTime: 0
+    - _StartWidth: 0.3
+    - _Width: 0.3
+    - _isAlpha: 1
+    - _isColorShift: 1
+    m_Colors: []
